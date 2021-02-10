@@ -6,8 +6,9 @@ html,
 body {
     padding: 0;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Arial, Helvetica, -apple-system, BlinkMacSystemFont, Roboto,
+        Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+        sans-serif;
 }
 
 a {
@@ -17,4 +18,64 @@ a {
 
 * {
     box-sizing: border-box;
+}
+/* =======Declarando fuentes para el proyecto========== */
+
+@font-face {
+    font-family: 'balto';
+    src: url(../fonts/Balto-Book.otf);
+}
+
+@font-face {
+    font-family: 'geog';
+    src: url(../fonts/Geog-RgIt.otf);
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'geog';
+    src: url(../fonts/Geog-SbIt.otf);
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'geog';
+    src: url(../fonts/Geogtq-Rg.otf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'geog';
+    src: url(../fonts/Geogtq-Sb.otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url(../fonts/Lato-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url(../fonts/Lato-Bold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'produkt';
+    src: url(../fonts/Produkt-Regular.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'produkt';
+    src: url(../fonts/Produkt-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'produkt';
+    src: url(../fonts/Produkt-Semibold.otf);
+    font-weight: 700;
 }

@@ -1,0 +1,11 @@
+.contenedor {
+    @apply bg-bgCian grid grid-cols-2 text-white font-produkt items-center;
+}
+
+.mensaje {
+    @apply mb-3 text-sm leading-6 uppercase;
+}
+
+.imagen {
+    @apply mt-5 -mx-8;
+}

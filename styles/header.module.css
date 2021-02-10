@@ -1,0 +1,11 @@
+.contenedor {
+    @apply grid grid-cols-2 px-5 py-8 items-center;
+}
+
+.titulo {
+    @apply text-principal font-arial font-semibold;
+}
+
+.logo {
+    @apply justify-self-end;
+}

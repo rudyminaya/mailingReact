@@ -5,7 +5,26 @@ module.exports = {
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                principal: '#01A8FF',
+                secundario: '#575756',
+                gris: '#21191508',
+            },
+            fontFamily: {
+                arial: 'Arial',
+                balto: 'balto',
+                geog: 'geog',
+                lato: 'lato',
+                produkt: 'produkt',
+            },
+            backgroundImage: {
+                bgCian: 'url(https://i.ibb.co/cX7S9d4/bgCian.jpg)',
+            },
+            backgroundOpacity: {
+                7: '0.07',
+            },
+        },
     },
     variants: {
         extend: {},

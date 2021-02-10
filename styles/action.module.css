@@ -1,0 +1,43 @@
+.contenedor {
+    @apply p-5 flex flex-col items-center;
+}
+
+.hash {
+    @apply font-arial text-lg text-secundario;
+}
+
+.mensaje {
+    @apply text-principal text-center text-lg tracking-tighter my-3;
+}
+
+.cajaAnuncio {
+    @apply grid grid-cols-2 bg-principal bg-opacity-7 items-center gap-2 my-2;
+}
+
+.textoContenedor {
+    @apply flex flex-col justify-center text-principal font-produkt py-3 pr-3;
+}
+
+.imagen {
+    @apply self-end;
+}
+
+.capital {
+    @apply text-5xl font-semibold mb-1;
+}
+
+.parrafo {
+    @apply text-sm;
+}
+
+.abono {
+    @apply font-medium text-sm;
+}
+
+.vigencia {
+    @apply parrafo mt-2;
+}
+
+.boton {
+    @apply my-2 bg-principal text-white font-arial font-bold px-5 py-1 rounded-lg;
+}
