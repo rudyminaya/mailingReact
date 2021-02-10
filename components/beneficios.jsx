@@ -9,7 +9,7 @@ export const Beneficios = () => {
                 Ahorro Digital
             </p>
             {/* insertando las cajas de los beneficios */}
-            <div className={`${styles.caja} ${styles.biometrico}`}>
+            <div className={styles.caja}>
                 <img
                     className={styles.icono}
                     src="https://i.ibb.co/k9JjPwm/biometrico-1.png"
@@ -20,14 +20,14 @@ export const Beneficios = () => {
                 </p>
             </div>
 
-            <div className={`${styles.caja} ${styles.seguridad}`}>
+            <div className={styles.caja}>
                 <img
                     className={styles.icono}
                     src="https://i.ibb.co/jgPCJfM/seguridad.png"
                 />
                 <p className={styles.parrafo}>
-                    Actívala con tu <strong>huella digital</strong> y úsala al
-                    instante
+                    <strong>Seguro de Protección Digital</strong> por 3 meses
+                    GRATIS
                 </p>
             </div>
         </section>

@@ -41,7 +41,10 @@
     .contenedor {
         @apply grid grid-cols-3 w-6/12 mx-auto;
     }
+    .titulo2 {
+        @apply mt-14;
+    }
     .textoLlamada {
-        @apply text-xl;
+        @apply text-xl mb-20;
     }
 }

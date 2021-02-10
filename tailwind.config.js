@@ -10,7 +10,6 @@ module.exports = {
                 principal: '#01A8FF',
                 secundario: '#575756',
                 gris: '#21191508',
-                cajaBiometrico: '#211915CC',
                 spamColor: '#8A8A8A',
             },
             fontFamily: {
