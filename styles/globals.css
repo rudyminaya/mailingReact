@@ -30,22 +30,20 @@ a {
     font-family: 'geog';
     src: url(../fonts/Geog-RgIt.otf);
     font-weight: 100;
-    font-style: italic;
 }
 @font-face {
     font-family: 'geog';
     src: url(../fonts/Geog-SbIt.otf);
-    font-weight: 600;
-    font-style: italic;
+    font-weight: 400;
 }
 @font-face {
-    font-family: 'geog';
+    font-family: 'geogtq';
     src: url(../fonts/Geogtq-Rg.otf);
-    font-weight: 100;
+    font-weight: 500;
 }
 
 @font-face {
-    font-family: 'geog';
+    font-family: 'geogtq';
     src: url(../fonts/Geogtq-Sb.otf);
     font-weight: 600;
 }

@@ -1,0 +1,23 @@
+.info {
+    @apply flex flex-col mt-10 border-t-2 border-black pt-5 px-10;
+}
+
+.iconos {
+    @apply flex justify-between;
+}
+
+.ejemplo {
+    @apply mt-5 text-justify text-xs font-semibold tracking-tighter;
+}
+
+.condiciones {
+    @apply px-10 border-b-2 border-black;
+}
+
+.parrafo {
+    @apply text-justify text-xs my-3 leading-6;
+}
+
+.spamMensaje {
+    @apply font-arial text-spamColor mx-10 text-justify my-5;
+}

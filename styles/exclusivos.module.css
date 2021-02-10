@@ -1,0 +1,19 @@
+.titulo {
+    @apply font-bold text-principal text-center text-lg my-3;
+}
+
+.contenedor {
+    @apply flex flex-col items-center py-5 bg-gris mx-10 my-3 rounded-3xl mb-5;
+}
+
+.beneficio {
+    @apply flex flex-col justify-center items-center my-5;
+}
+
+.titulo2 {
+    @apply titulo;
+}
+
+.textoLlamada {
+    @apply mx-10;
+}

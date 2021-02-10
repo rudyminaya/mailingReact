@@ -1,0 +1,15 @@
+.contenedor {
+    @apply flex flex-col items-center m-10 border-principal rounded-3xl border-4 p-5;
+}
+
+.icono {
+    @apply mb-5;
+}
+
+.parrafo {
+    @apply font-lato text-sm text-justify;
+}
+
+.capital {
+    @apply text-principal font-black uppercase text-xl;
+}
