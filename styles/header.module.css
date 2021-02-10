@@ -1,5 +1,5 @@
 .contenedor {
-    @apply grid grid-cols-2 px-5 py-8 items-center;
+    @apply grid grid-cols-2 px-3 py-8 items-center;
 }
 
 .titulo {
@@ -8,4 +8,22 @@
 
 .logo {
     @apply justify-self-end;
+}
+
+@screen md {
+    .contenedor {
+        @apply px-10;
+    }
+    .titulo {
+        @apply text-xl;
+    }
+}
+
+@screen xl {
+    .contenedor {
+        @apply px-14;
+    }
+    .titulo {
+        @apply text-2xl;
+    }
 }

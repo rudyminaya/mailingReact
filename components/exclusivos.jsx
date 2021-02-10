@@ -13,7 +13,9 @@ export const Exclusivos = () => {
                         key={`beneficio-${index}`}
                     >
                         <img src={elemento.slug} />
-                        <p>{elemento.beneficio}</p>
+                        <p className={styles.textoBeneficio}>
+                            {elemento.beneficio}
+                        </p>
                     </div>
                 ))}
             </section>

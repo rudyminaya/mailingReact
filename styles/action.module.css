@@ -41,3 +41,71 @@
 .boton {
     @apply my-2 bg-principal text-white font-arial font-bold px-5 py-1 rounded-lg;
 }
+
+@screen md {
+    .contenedor {
+        @apply px-14;
+    }
+
+    .hash {
+        @apply text-2xl mt-3;
+    }
+
+    .mensaje {
+        @apply text-2xl mx-24;
+    }
+    .cajaAnuncio {
+        @apply pt-10;
+    }
+
+    .imagen {
+        @apply w-96;
+    }
+
+    .capital {
+        @apply text-8xl;
+    }
+
+    .parrafo {
+        @apply text-xl;
+    }
+    .abono {
+        @apply text-xl;
+    }
+
+    .boton {
+        @apply text-2xl mt-8 px-7 py-2 rounded-xl;
+    }
+}
+
+@screen xl {
+    .hash {
+        @apply text-3xl mt-3;
+    }
+
+    .mensaje {
+        @apply text-3xl mx-24;
+    }
+    .cajaAnuncio {
+        @apply pt-10 mt-5;
+    }
+
+    .imagen {
+        @apply w-96;
+    }
+
+    .capital {
+        @apply text-8xl;
+    }
+
+    .parrafo {
+        @apply text-xl;
+    }
+    .abono {
+        @apply text-xl;
+    }
+
+    .boton {
+        @apply text-2xl mt-8 px-7 py-2 rounded-xl;
+    }
+}

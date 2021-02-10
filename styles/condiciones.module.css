@@ -14,10 +14,49 @@
     @apply px-10 border-b-2 border-black;
 }
 
+.link {
+    @apply hover:text-principal;
+}
+
 .parrafo {
     @apply text-justify text-xs my-3 leading-6;
 }
 
 .spamMensaje {
     @apply font-arial text-spamColor mx-10 text-justify my-5;
+}
+
+@screen md {
+    .info {
+        @apply grid mb-3 px-20;
+        grid-template-columns: 2fr 5fr;
+    }
+
+    .condiciones {
+        @apply px-20;
+    }
+    .iconos {
+        @apply w-72 mr-10;
+    }
+    .ejemplo {
+        @apply text-base;
+    }
+    .parrafo {
+        @apply text-base;
+    }
+    .spamMensaje {
+        @apply text-lg mx-20;
+    }
+}
+
+@screen xl {
+    .info {
+        @apply mb-8 px-44;
+    }
+    .condiciones {
+        @apply px-44;
+    }
+    .spamMensaje {
+        @apply px-24;
+    }
 }

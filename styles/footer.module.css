@@ -7,9 +7,33 @@
 }
 
 .parrafo {
-    @apply font-lato text-sm text-justify;
+    @apply font-lato text-sm text-justify text-secundario;
 }
 
 .capital {
     @apply text-principal font-black uppercase text-xl;
+}
+
+@screen md {
+    .contenedor {
+        @apply flex-row p-8 w-3/5 mx-auto;
+    }
+    .icono {
+        @apply w-28 mr-10;
+    }
+    .parrafo {
+        @apply text-xl;
+    }
+}
+
+@screen md {
+    .contenedor {
+        @apply flex-row p-10 w-3/6 mx-auto;
+    }
+    .icono {
+        @apply w-52 mr-10;
+    }
+    .parrafo {
+        @apply text-xl;
+    }
 }

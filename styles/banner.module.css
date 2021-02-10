@@ -1,11 +1,38 @@
 .contenedor {
-    @apply bg-bgCian grid grid-cols-2 text-white font-produkt items-center;
+    @apply bg-bgCian grid grid-cols-2 text-white font-produkt items-center bg-no-repeat bg-cover;
 }
 
-.mensaje {
-    @apply mb-3 text-sm leading-6 uppercase;
+.mensajeAlt {
+    @apply mb-3 text-xs leading-6 uppercase;
 }
 
 .imagen {
-    @apply mt-5 -mx-8;
+    @apply mt-5 -mx-8 text-sm;
+}
+
+@screen md {
+    .contenedor {
+        @apply pl-10;
+    }
+    .mensajeAlt {
+        @apply text-2xl mb-8 pr-20;
+    }
+    .mensaje {
+        @apply text-3xl pr-20;
+    }
+}
+
+@screen xl {
+    .contenedor {
+        @apply pl-14;
+    }
+    .mensajeAlt {
+        @apply text-3xl;
+    }
+    .mensaje {
+        @apply text-4xl;
+    }
+    .imagen {
+        @apply w-9/12 mx-0;
+    }
 }

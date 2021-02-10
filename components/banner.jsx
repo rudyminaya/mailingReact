@@ -4,10 +4,12 @@ export const Banner = () => {
     return (
         <section className={styles.contenedor}>
             <div className="pl-5">
-                <p className={styles.mensaje}>
+                <p className={styles.mensajeAlt}>
                     “Solo quería decirte que no eres tú, soy yo...
                 </p>
-                <p>Quiero un banco que me dé más por mi dinero”.</p>
+                <p className={styles.mensaje}>
+                    Quiero un banco que me dé más por mi dinero”.
+                </p>
             </div>
             <img
                 className={styles.imagen}

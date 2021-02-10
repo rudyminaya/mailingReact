@@ -68,8 +68,14 @@ export const Condiciones = () => {
                     cliente podrá afiliarse a HOLAbank, en caso de no estar
                     afiliado. <strong>Beneficios y Descuentos: </strong>
                     Promociones válidas solo con Cuentas de Ahorro Digital hasta
-                    el 23/02/2021. Mayor información en
-                    www.banbif.com.pe/holabank.
+                    el 23/02/2021. Mayor información en 
+                    <a
+                        className={styles.link}
+                        href="https://banbif.com.pe/holabank"
+                    >
+                        www.banbif.com.pe/holabank
+                    </a>
+                    .
                     <br />
                     Depósito cubierto por el Fondo de Seguro de Depósitos hasta
                     por un monto de S/101,522.00 para el trimestre diciembre

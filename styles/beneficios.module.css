@@ -7,7 +7,7 @@
 }
 
 .caja {
-    @apply rounded-3xl text-principal flex px-5 py-10 my-3;
+    @apply rounded-3xl text-principal flex px-5 py-10 my-3 items-center;
 }
 .biometrico {
     @apply bg-cajaBiometrico;
@@ -18,4 +18,40 @@
 
 .icono {
     @apply mr-5;
+}
+
+@screen md {
+    .mensaje {
+        @apply mx-44 text-xl;
+    }
+
+    .caja {
+        @apply px-10 w-2/4 py-14;
+    }
+
+    .icono {
+        @apply mr-8;
+    }
+
+    .parrafo {
+        @apply text-xl;
+    }
+}
+
+@screen xl {
+    .mensaje {
+        @apply mx-44 text-2xl;
+    }
+
+    .caja {
+        @apply px-10 w-1/3 py-14;
+    }
+
+    .icono {
+        @apply mr-8;
+    }
+
+    .parrafo {
+        @apply text-xl;
+    }
 }

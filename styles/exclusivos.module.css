@@ -7,7 +7,11 @@
 }
 
 .beneficio {
-    @apply flex flex-col justify-center items-center my-5;
+    @apply flex flex-col justify-center items-center my-5 text-principal;
+}
+
+.textoBeneficio {
+    @apply mt-2;
 }
 
 .titulo2 {
@@ -15,5 +19,29 @@
 }
 
 .textoLlamada {
-    @apply mx-10;
+    @apply mx-10 text-center;
+}
+
+@screen md {
+    .titulo {
+        @apply text-2xl my-7;
+    }
+    .contenedor {
+        @apply grid grid-cols-3;
+    }
+    .textoLlamada {
+        @apply text-xl;
+    }
+}
+
+@screen xl {
+    .titulo {
+        @apply text-2xl my-7;
+    }
+    .contenedor {
+        @apply grid grid-cols-3 w-6/12 mx-auto;
+    }
+    .textoLlamada {
+        @apply text-xl;
+    }
 }
